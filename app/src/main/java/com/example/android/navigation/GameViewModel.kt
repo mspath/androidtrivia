@@ -4,8 +4,6 @@ import androidx.lifecycle.ViewModel
 
 class GameViewModel : ViewModel() {
 
-    val content = "dummy from the view model"
-
     data class Question(
             val text: String,
             val answers: List<String>)

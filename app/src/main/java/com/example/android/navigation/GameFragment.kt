@@ -23,24 +23,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
+import androidx.fragment.app.viewModels
 import androidx.navigation.findNavController
 import com.example.android.navigation.databinding.FragmentGameBinding
 
-// TODO this might be a good canditate for refactoring using a viewmodel
-
 class GameFragment : Fragment() {
 
-    private lateinit var viewModel: GameViewModel
+    private val viewModel: GameViewModel by viewModels()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
 
         val binding = DataBindingUtil.inflate<FragmentGameBinding>(
                 inflater, R.layout.fragment_game, container, false)
-
-        viewModel = ViewModelProvider(this).get(GameViewModel::class.java)
 
         randomizeQuestions()
 
