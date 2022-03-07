@@ -1,5 +1,4 @@
-Android Trivia
-==============
+# Android Trivia
 
 A simple app that asks the user trivia questions about Android development.
 
@@ -19,10 +18,10 @@ Note: this also works nicely in multiwindow-mode on a chromebook.
 
 Environment
 
-- Kotlin 1.4.32
-- Android Studio 4.1.3
-- Gradle Plugin 4.1.3
+- Kotlin 1.6.10
+- Android Studio Bumblebee
+- Gradle Plugin 2021.1.1
 
 ----
 
-updated: 2021-04-27
+updated: 2022-03-07
