@@ -75,6 +75,7 @@ class GameWonFragment : Fragment() {
         // startActivity(getShareIntentJson())
     }
 
+    @Deprecated("see super")
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.winner_menu, menu)
@@ -85,6 +86,7 @@ class GameWonFragment : Fragment() {
         }
     }
 
+    @Deprecated("see super")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.share -> shareSuccess()

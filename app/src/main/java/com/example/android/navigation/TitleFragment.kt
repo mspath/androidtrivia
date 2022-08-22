@@ -41,11 +41,13 @@ class TitleFragment : Fragment() {
         return binding.root
     }
 
+    @Deprecated("see super")
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.overflow_menu, menu)
     }
 
+    @Deprecated("see super")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return NavigationUI.onNavDestinationSelected(item,
                 requireView().findNavController())
