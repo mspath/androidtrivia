@@ -27,6 +27,6 @@ Environment
 ```
 language: kotlin
 repo: androidtrivia
-status: active
+status: archived
 updated: 2022-12-02
 ```
