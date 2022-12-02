@@ -18,10 +18,15 @@ Note: this also works nicely in multiwindow-mode on a chromebook.
 
 Environment
 
-- Kotlin 1.7.10
+- Kotlin 1.7.20
 - Android Studio Dolphin 2021.3.1
-- Gradle Plugin 7.3.0
+- Gradle Plugin 7.3.1
 
 ----
 
-updated: 2022-10-02
+```
+language: kotlin
+repo: androidtrivia
+status: active
+updated: 2022-12-02
+```
