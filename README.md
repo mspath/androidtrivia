@@ -8,7 +8,7 @@ It makes use of the Navigation component within Jetpack to move the user between
 Each screen is implemented as a Fragment.
 The app navigates using buttons, the Action Bar, and the Navigation Drawer.
 
-Note: this also works nicely in multiwindow-mode on a chromebook.
+Note: this also works nicely in multi window-mode on a chromebook.
 
 ----
 
@@ -18,9 +18,9 @@ Note: this also works nicely in multiwindow-mode on a chromebook.
 
 Environment
 
-- Kotlin 1.7.20
-- Android Studio Dolphin 2021.3.1
-- Gradle Plugin 7.3.1
+- Kotlin 1.8.0
+- Android Studio Electric Eel 2022.1.1
+- Gradle Plugin 7.4.2
 
 ----
 
@@ -28,5 +28,5 @@ Environment
 language: kotlin
 repo: androidtrivia
 status: archived
-updated: 2022-12-02
+updated: 2023-03-09
 ```
